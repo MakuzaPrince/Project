@@ -1,0 +1,37 @@
+1. What is logging?
+
+Logging is the process of recording information about events and activities within a system or application for purposes such as troubleshooting, monitoring, security analysis, and compliance auditing.
+
+2. Why is logging important?
+
+Logging is important because it provides critical insights into system behavior, helps diagnose and troubleshoot issues, enhances security by tracking activities and detecting anomalies, ensures compliance with regulatory requirements, and assists in performance monitoring and optimization.
+
+3. Understanding logging levels
+
+Logging levels indicate the severity or importance of the events being recorded, helping prioritize actions and filter log data effectively. Here are the common logging levels:
+
+a. DEBUG
+   - Purpose: Provides detailed information, typically used for diagnosing problems during development.
+   - Usage: Includes information that is useful to developers, such as variable values, function calls, and 		execution flow details.
+   - Example: "DEBUG: User object retrieved from database: {id: 1, name: 'Alice'}"
+
+b. INFO:
+   - Purpose: Conveys general operational messages that highlight the progress of the application.
+   - Usage: Used to log informational messages that confirm the application is working as expected.
+   - Example: "INFO: User 'Alice' successfully logged in."
+
+c. WARN:
+   - Purpose: Indicates potentially harmful situations or minor issues that do not interrupt the system's 	operation.
+   - Usage: Used to log warning messages about events that might cause problems in the future but do not 	currently stop the application.
+   - Example: "WARN: Disk space running low on server."
+
+4. ERROR:
+   - Purpose: Records serious issues that prevent some functionality from working correctly but do not cause 	the entire system to fail.
+   - Usage: Used to log error messages when an operation fails and needs attention but the application can 	continue running.
+   - Example: "ERROR: Failed to save user data to database."
+
+5. FATAL:
+   - Purpose: Captures critical errors causing the complete shutdown of the application or system.
+   - Usage: Used to log fatal messages for severe issues that require immediate attention and usually cause 	the application to terminate.
+   - Example: "FATAL: System out of memory, shutting down."
+
